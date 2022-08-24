@@ -1,0 +1,67 @@
+.portfolio__skill
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 80%;
+}
+
+.portfolio__skill--name
+{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.portfolio__skill--name p
+{
+  font-family: var(--font-family);
+  color: var(--color-text);
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+}
+
+
+.portfolio__skill--level
+{
+  height: 10px;
+  background: #6d6d6d;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.portfolio__skill--level div
+{
+  height: 10px;
+  background: #0b0b0b;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 550px)
+{
+  .portfolio__skill
+  {
+    width: 90%;
+  }
+
+  .portfolio__skill--name
+  {
+    margin-bottom: 0.8rem;
+  }
+  
+  .portfolio__skill--name p
+  {
+    font-size: 15px;
+  }
+}
