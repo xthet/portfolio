@@ -23,7 +23,7 @@ export default function Portfolio()
             stack={"Ethers.js, Hardhat, Solidity, Next.js, NodeJS, Javascript, TheGraph"}
             image={apio}
             code={"https://github.com/xapski2671/apio-nft-marketplace"}
-            demo={"https://apiomarketplace.herokuapp.com/"}
+            demo={"https://apio-nft-marketplace.vercel.app/"}
           />
         </div>
       </div>
