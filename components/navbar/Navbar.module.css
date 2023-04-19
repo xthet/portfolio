@@ -69,6 +69,12 @@
   letter-spacing: 0.08em;
   margin-right: 1rem;
   cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.portfolio__navbar--links_container--menu p:hover,
+.portfolio__navbar--links_container--hamburger_menu--links p:hover{
+  opacity: 0.7;
 }
 
 .portfolio__navbar--links_container--menu p:nth-of-type(5)

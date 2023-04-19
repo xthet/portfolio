@@ -43,6 +43,10 @@
   width: 25px;
   height: 25px;
   color: #fff;
+  transition: all 0.3s ease;
+}
+.fa-icon:hover{
+  opacity: 0.6;
 }
 
 .portfolio__about--heading
@@ -188,6 +192,10 @@
   padding: .5rem;
   width: 20%;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+.portfolio__about--body--details--resume:hover{
+  opacity: 0.6;
 }
 
 .portfolio__about--body--details--resume p

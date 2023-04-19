@@ -48,9 +48,9 @@ export default function Contact()
           <div className={styles["portfolio__contact--details_container"]}>
             <div className={styles["portfolio__contact--details"]}>
               <h3>TEL: +2348141905659</h3>
-              <h3>22 OLOWOOKERE AVE, IGODO</h3>
-              <h3>MAGBORO, 110115, OGUN STATE, NIGERIA</h3>
-              <p>oderindeifedapoo@gmail.com</p>
+              {/* <h3>22 OLOWOOKERE AVE, IGODO</h3> */}
+              <h3>LAGOS, NIGERIA</h3>
+              <p>xapski2671@gmail.com</p>
               <div className={styles["portfolio__contact--details--social"]}>
                 <a href={process.env.NEXT_PUBLIC_LINKEDIN_SOCIAL} target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon="fa-brands fa-linkedin" className={styles["social-icon"]}/>
