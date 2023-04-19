@@ -1,8 +1,12 @@
 import Image from "next/image"
 import styles from "./Project.module.css"
+import { useMediaQuery } from "react-responsive"
+
 
 export default function Project({ name, title, description, image, code, demo, stack })
 {
+  const isVSmallScreen = useMediaQuery({ query: "(max-width: 550px)" })
+
   return (
     <div className={styles["portfolio__project"]}>
       <div className={styles["portfolio__project--details"]}>
@@ -16,7 +20,7 @@ export default function Project({ name, title, description, image, code, demo, s
         </div>
       </div>
       <div className={styles["portfolio__project--image"]}>
-        <div className={styles["nimg"]}><Image alt="project image" src={image} layout="fill" objectFit="cover"/></div>
+        <div className={styles["nimg"]}><Image alt="project image" src={isVSmallScreen ? image[1] : image[0]} layout="fill" objectFit="cover"/></div>
       </div>
     </div>
   )
