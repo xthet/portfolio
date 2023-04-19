@@ -54,7 +54,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s ease;
   border-radius: 50%;
+}
+
+.portfolio__footer--details--socials--social_box:hover{
+  transform: scale(1.06);
 }
 
 .portfolio__footer--details-socials a:last-child
@@ -68,6 +73,8 @@
   height: 15px;
   color: #151515;
 }
+
+
 
 .portfolio__footer--copyright p
 {

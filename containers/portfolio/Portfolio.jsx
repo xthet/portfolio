@@ -20,7 +20,7 @@ export default function Portfolio()
             name={"apio"}
             description={"A fully decentralized NFT Marketplace."}
             stack={"Ethers.js, Hardhat, Solidity, Next.js, NodeJS, Javascript, TheGraph"}
-            image={"../../assets/images/apio-screenshot.png"}
+            image={"/projectImages/prj_apio.png"}
             code={"https://github.com/xapski2671/apio-nft-marketplace"}
             demo={"https://apio-nft-marketplace.vercel.app/"}
           />
@@ -29,7 +29,7 @@ export default function Portfolio()
             name={"muudiswap"}
             description={"An ERC20 DEX layered on UNISWAP AutoRouter API"}
             stack={"Ethers.js, Next.js, TypeScript, SASS, UNISWAP"}
-            image={"../../assets/images/muudiswap.png"}
+            image={"/projectImages/prj_muudi.png"}
             code={"https://github.com/xapski2671/nx-muudi-swap"}
             demo={"https://muudiswap.vercel.app/"}
           />
