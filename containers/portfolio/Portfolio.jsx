@@ -1,5 +1,4 @@
 import { Project } from "../../components/exportComps"
-import apio from "../../assets/images/apio-screenshot.png"
 import styles from "./Portfolio.module.css"
 
 export default function Portfolio()
@@ -21,9 +20,18 @@ export default function Portfolio()
             name={"apio"}
             description={"A fully decentralized NFT Marketplace."}
             stack={"Ethers.js, Hardhat, Solidity, Next.js, NodeJS, Javascript, TheGraph"}
-            image={apio}
+            image={"../../assets/images/apio-screenshot.png"}
             code={"https://github.com/xapski2671/apio-nft-marketplace"}
             demo={"https://apio-nft-marketplace.vercel.app/"}
+          />
+          <Project
+            title={"ERC20 DEX AGGREGATOR"}
+            name={"muudiswap"}
+            description={"An ERC20 DEX layered on UNISWAP AutoRouter API"}
+            stack={"Ethers.js, Next.js, TypeScript, SASS, UNISWAP"}
+            image={"../../assets/images/muudiswap.png"}
+            code={"https://github.com/xapski2671/nx-muudi-swap"}
+            demo={"https://muudiswap.vercel.app/"}
           />
         </div>
       </div>
