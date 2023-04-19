@@ -28,24 +28,28 @@
 
 .portfolio__skill--level
 {
-  height: 10px;
+  height: 17px;
   background: #6d6d6d;
   width: 100%;
   border: none;
   outline: none;
-  border-radius: 10px;
+  border-radius: 3px;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 1px;
+  opacity: 0.7;
 }
 
 .portfolio__skill--level div
 {
-  height: 10px;
+  height: 15px;
   background: #0b0b0b;
-  border-radius: 10px;
+  border-radius: 3px;
   border: none;
   outline: none;
+  margin: 0;
 }
 
 @media screen and (max-width: 550px)
