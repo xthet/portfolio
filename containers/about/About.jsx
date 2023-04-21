@@ -50,12 +50,12 @@ export default function About()
                   <FontAwesomeIcon icon="fa-brands fa-square-twitter" className={styles["fa-icon"]}/>
                 </a>
               </div>
-              <Link href={process.env.NEXT_PUBLIC_RESUME_LINK} target="_blank" rel="noopener noreferrer">
+              <a href={process.env.NEXT_PUBLIC_RESUME_LINK} target="_blank" rel="noopener noreferrer" className={styles["abt-a-res"]}>
                 <div className={styles["portfolio__about--body--details--resume"]}>
                   <FontAwesomeIcon icon="fa-solid fa-file-invoice" className={styles["fa-icon"]}/>
                   <p>RESUME</p>
                 </div>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
